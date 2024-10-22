@@ -1,5 +1,9 @@
 fn main() {
     // You can optionally experiment here.
+    let a = [1, 2, 3, 4, 5];
+    println!("a has {} elements", a.len());
+    let slice = &a[1..3];
+    println!("a slice has {} elements", slice.len());
 }
 
 #[cfg(test)]
